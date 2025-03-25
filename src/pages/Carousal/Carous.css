@@ -1,0 +1,35 @@
+.custom-carousel-item {
+    position: relative;
+    height: 600px; /* You can adjust the height as needed */
+  }
+  .captionh5{
+    font-size: 45px;
+    color: white;
+    font-weight: 200;
+  }
+  .captionpara{
+    font-size: 45px;
+    color: white;
+    font-weight: 900;
+  }
+  .custom-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    z-index: -1; /* Keeps the background behind the caption */
+  }
+  
+  .custom-caption {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-0%, -0%); /* Centers the caption both horizontally and vertically */
+    text-align: center; /* Ensures the text is centered */
+    color: white; /* Makes the text stand out */
+    z-index: 1; /* Keeps the caption on top of the background */
+  }
+  

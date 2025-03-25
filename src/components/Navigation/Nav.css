@@ -1,0 +1,35 @@
+.navbar {
+    background-color: var(--primary-bg-color);
+}
+
+.navbar .navbar-toggler {
+    border-color: black;
+}
+.navbar{
+    height: 90px;
+    background-color:rgba(245, 245, 220,0.6);
+}
+
+.navbar .navbar-toggler-icon,
+.navbar .navbar-brand img {
+}
+
+a{
+    margin-left: 20px;
+} a:hover{
+    color: navy;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.navbar .navbar-brand img {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        background-color: var(--secondary-bg-color);
+    }
+}

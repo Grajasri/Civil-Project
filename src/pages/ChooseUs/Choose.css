@@ -1,0 +1,57 @@
+/* Custom styles for the grid and columns */
+.custom-col {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .custom-item {
+    width: 100%;
+    margin-top: 70px;
+  }
+  
+  .custom-image {
+    width: 100%;
+    height: 100px;
+    opacity:0.5;
+    transition: transform 0.3s ease-in-out; /* Adds smooth transition for zoom effect */
+  }
+  
+  .custom-image:hover {
+    transform: scale(1.1); /* Zooms in the image slightly */
+    opacity: 1;
+  }
+  
+  .custom-title {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 900;
+    color: midnightblue;
+    padding: 28px;
+  }
+  .center-content{
+    margin-top: 70px;
+  }
+  .custom-head{
+    text-align: center;
+    font-weight: 800;
+    font-size: 34px;
+    color: midnightblue;
+  }
+  @media (min-width: 992px) {
+    .custom-col {
+      padding: 0 10px; /* Adjust padding for larger screens */
+    }
+  }
+  @media (max-width: 576px) {
+    .custom-col {
+      margin-bottom: 10px;
+    }
+    .custom-item {
+      margin-top: 40px;
+    }
+    .center-content{
+      margin-top: 40px;
+    }
+  }
+  

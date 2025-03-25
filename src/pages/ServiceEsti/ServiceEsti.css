@@ -1,0 +1,77 @@
+.nav-link-hover {
+    color: black;
+    transition: color 0.3s ease;
+  }
+  .nav-link-hover:hover {
+    color: blue; 
+  }
+  .title-head{
+    font-size: 30px;
+    font-weight: 900;
+    color: midnightblue;
+    padding: 0px;
+    font-family: "Poppins";
+  }
+  .linklink{
+    font-size: 30px;
+    font-weight: 900;
+    color: midnightblue;
+    padding: 0px;
+    font-family: "Poppins";
+  }
+  .setback{
+    background-color: midnightblue;
+    width: 100%;
+    height: auto;
+  }
+  .par{
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    padding: 0px;
+    font-family: "Poppins";
+  }
+  .pp{
+    margin-top: 10px;
+  }
+  .paraobo{
+    font-size: 15px;
+    font-weight: 900;
+    color: lightgray;;
+    font-family: "Poppins";
+  }
+  .divdiv{
+    margin-left: 10px;
+  }
+  .title-para{
+    font-size: 30px;
+    font-weight: 900;
+    color: midnightblue;
+    padding: 0px;
+    font-family: "Poppins";
+  }
+  .iconf{
+    color: green;
+  }
+  .para{
+    font-family: "Poppins";
+  }
+  .firstdiv{
+    margin-left: 20px;
+  }
+  .img-fluid{
+    text-align: center;
+  }
+  .imgimg{
+    background-color: white;
+    box-shadow: 2px 2px 15px gray;
+    height: 367px;
+    width: 500px;
+  }
+  .iconpara{
+    position: relative;
+    top: -27px;
+    left: 60px;
+    font-family: "Poppins";
+  }
+  
