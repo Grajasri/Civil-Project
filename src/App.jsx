@@ -12,7 +12,7 @@ function App() {
     <Nav/>
     <Routes>
       <Route index element={<Home/>}/>
-      <Route path="/ServiceEsti" element={<ServiceEsti/>}/>
+      <Route path="/Service" element={<ServiceEsti/>}/>
       <Route path="/ServiceDetail" element={<ServiceDetail/>}/>
     </Routes> 
     <Footer/>
